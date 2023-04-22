@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#maindiv{
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid purple;
+    border-radius: 5px;
+
+}
+
+#maindiv h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#maindiv #placeholder input[type=text]{
+    padding-left: 16px;
+    padding-bottom: 100px;
+}
+
+#maindiv #placeholder input{
+    height: 150px;
+    width: 350px;
+    border-radius: 5px;
+
+}
+
+#maindiv #placeholder{
+    padding-left: 20px;
+}
+
+#maindiv #icons{
+    padding-left: 20px;
+}
+
+#icons i{
+    color: lightgray;
+    font-size: 30px;
+}
+
+#icons i.Active{
+    color: red;
+}
+
+#maindiv button{
+    margin-left: 20px;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    background: purple;
+    color: white;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 15px;
+}
